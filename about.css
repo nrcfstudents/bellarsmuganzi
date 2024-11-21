@@ -1,0 +1,43 @@
+body{
+	font-family: serif;
+	margin: 10 10 10 20;
+	padding: 20px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+.facts{
+	font-size: 30px;
+	text-align: left;
+}
+.skills{
+	font-size: 30px;
+	text-align: ;
+}
+.subjects{
+	font-size: 30px;
+}
+.about-section{
+	padding: 50px;
+	text-align: center;
+	background-color: darkgrey;
+	calour: white;
+}
+.class-container{
+	padding: 0 16px;
+}
+.column,.row{
+	border: 2px solid black;
+}
+.column{
+	padding: 20px;
+	width: 100%;
+}
+img{
+	width: 70px;
+	height: auto;
+}
+.title{
+
+}
