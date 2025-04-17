@@ -1,0 +1,20 @@
+body{
+	background-color: hotpink;
+	margin-top: 20px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.projects-main-container{
+	display: flex;
+	justify-content: space-between;
+}
+.project-container{
+	border: solid 1px;
+	padding: 10px;
+	background-color: violet; /* Dark Blue */
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
