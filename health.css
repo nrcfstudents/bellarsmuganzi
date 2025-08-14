@@ -1,0 +1,116 @@
+.body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.0001px solid lightgray;
+    padding-left: 100px;
+    padding-right: 30px;
+    background-color: #f3f3f3;
+  }
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.contacts p{
+    border-right: 1px solid lightgray;
+    margin: 0;
+    padding: 10px;
+}
+.contacts p:last-child{
+    border-right: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 60px;
+    background-color:   #f3f3f3;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.appointment-btn{
+    background-color:greenyellow ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.hero{
+    height: 410px;
+    background: url('slider3.jpg')center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+
+}
+.hero h1{
+    font-size:  70px;
+}
+.read{
+    background-color: blue;
+    padding: 12px 25px;
+    color: white;
+    border-radius:3px;
+    text-decoration: none;
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    background:#f3f3f3;
+    padding: 70px;
+    border-bottom: 0.05px solid lightgray ;
+}
+.about-image  img{
+    height: 350px;
+    width: 380px;
+}
+.doctor-image img{
+    border-radius: 50%;
+    width: 50px;
+}
+.doctor-image{
+display: flex;
+gap:10px;
+}
+.about-text h2{
+    font-size: 38px;
+}
+.about-text p{
+    font-size: 15px;
+}
+.doctors h2{
+    font-size: 38px;
+}
+.doctors{
+    padding: 70px;
+    background-color: #f3f3f3;
+}
+.all-doctors{
+    display: flex;
+    gap: 30px;
+}
+.doctor-card{
+    min-height: 500px;
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    background-color: skyblue;
+}
+.doctor-card img{
+    width:  100%;
+}
+.doctor-card:hover{
+    transform:  translateY(-5px);
+}
+.doctor-card h3,.doctor-card p{
+    padding-left:30px;
+}
